@@ -52,6 +52,7 @@ console.log(todayAt);
               airData={airQuality?.list[0].components.co}
             />
             <RightItem
+            
               airType={"NO"}
               airData={airQuality?.list[0].components.co}
             />

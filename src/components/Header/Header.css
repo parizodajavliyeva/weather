@@ -38,7 +38,9 @@
   color: white;
 }
 
-
+.listts-item{
+  margin-left: 30px;
+}
 
 /* Planshet ekranlar uchun */
 @media (max-width: 768px) {

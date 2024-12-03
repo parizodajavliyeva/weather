@@ -10,7 +10,6 @@ function Header() {
   const [currentWeather, setCurrentWeather] = useState(null);
   const [airQuality, setAirQuality] = useState(null);
   const API_KEY = "e5e774629fcf72b428b60219302b9e65";
-  
 
   const [location, setLocation] = useState({ lon: null, lat: null });
   const [error, setError] = useState(null);
@@ -55,16 +54,12 @@ function Header() {
         `https://api.openweathermap.org/data/2.5/forecast?lat=${location.lat}&lon=${location.lon}&appid=${API_KEY}&units=metric`
       )
       .then((res) => setForecast(res.data));
-      axios
+    axios
       .get(
         `https://api.openweathermap.org/data/2.5/air_pollution?lat=${location.lat}&${location.lon}&appid=${API_KEY}`
       )
       .then((res) => setAirQuality(res.data));
-  } , [location]);
-  
-
-
-
+  }, [location]);
 
   const fetchData = () => {
     axios
@@ -82,7 +77,7 @@ function Header() {
   useEffect(() => {
     axios
       .get(
-        `https://api.openweathermap.org/data/2.5/air_pollution?lat=${currentWeather?.coord.lat}&${currentWeather?.coord.lon}&appid=${API_KEY}`
+        `https://api.openweathermap.org/data/2.5/air_pollution?lat=${currentWeather?.coord.lat}&lon=${currentWeather?.coord.lon}&appid=${API_KEY}`
       )
       .then((res) => setAirQuality(res.data));
   }, [currentWeather]);
