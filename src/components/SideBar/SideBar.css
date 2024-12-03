@@ -1,0 +1,301 @@
+.bccolor{
+    background-color: #282C2D;
+    /* display: inline-block; */
+    padding: 20px;
+    border-radius: 15px;
+}
+.bignumber {
+font-size: 35px;
+}
+.manaa{
+    margin-right: 15px;
+}
+.line {
+border-top: 2px solid white;
+width: 300px;
+margin-bottom: 15px;
+}
+.list-item {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.title {
+font-size: 35px;
+}
+.second-side {
+    background-color: #282C2D;
+    /* display: inline-block;    */
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+
+}
+.manaaa {
+display: inline-block;  
+}
+.hammasi {
+    display: flex;
+    gap: 25px;  
+}
+.esh {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.btn {
+background-color: tomato;
+padding: 5px;
+}
+.listss {
+    width: 500px;
+    background-color: #282C2D;
+    padding: 15px;
+    flex-wrap: wrap;
+
+    border-radius: 15px;
+list-style: none;
+display: flex; 
+gap: 15px;
+/* width: 500px; */
+}
+.listts-item{
+    flex-wrap: wrap;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+.p {
+font-size: 25px;
+}
+.picha {
+    font-size: 25px;
+}
+
+.ohir {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.div {
+    /* margin-top: 15px; */
+    margin-right: 15px;
+background-color: #282C2D;
+display: inline-block;
+border-radius: 15px;
+padding: 15px;
+}
+.icon {
+    margin-right: 90px;
+}
+.divcha {
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+}
+.divchaa {
+    /* padding-top: 550px; */
+    /* height: 300px; */
+    background-color: #282C2D;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-bottom: 65px;
+    margin-top: 15px;
+    
+}
+.display{
+display: flex;
+align-items: center;
+}
+.kla {
+    font-size: 25px;
+}
+.width{
+    width: 50px;
+}
+.vkjdsbv{
+    display: flex;
+    gap: 35px;
+}
+.poor {
+    margin-left: 100px;
+}
+.m{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.divv{
+    padding: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.d{
+    align-items: center;
+}
+.man{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.k{
+    display: flex;
+    align-items: center;
+}
+.w{
+    margin-left: 15px;
+    background-color: #282C2D;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+@media (max-width: 1246px) {
+    .divcha{
+        flex-direction: column;
+    }
+   
+    .hammasi {
+        
+        margin-left: 100px;
+    }
+   
+}
+
+@media (max-width: 1024px) {
+    .hammasi {
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 80px;
+    }
+    .list-item {
+        /* flex-direction: column; */
+        margin-left: 30px;
+        gap: 10px;
+    }
+    .second-side {
+        margin-top: 10px;
+    }
+    .poor {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .listts-item {
+        width: calc(50% - 10px); 
+    }
+    .hammasi{
+        text-align: center;
+        margin-left: 0;
+        
+    }
+    .second-side{
+        width: 80%;
+    }
+    .bccolor{
+        width: 80%;
+    }
+    .b{
+        margin-left: 100px;
+    }
+    .esh{
+        margin-left: 180px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .list-item{
+        display: flex;
+    }
+    .b{
+        margin-left: 30px;  
+    }
+    .hammasi {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bccolor {
+        padding: 15px;
+        width: 78%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .listss {
+        gap: 10px;
+    }
+    /* .listts-item {
+        width: 100%; 
+    } */
+     .list-item{
+        display: flex;
+     }
+    .btn {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    .p, .picha, .kla {
+        font-size: 18px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .vkjdsbv {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .w {
+        padding: 15px;
+    }
+    .second-side{
+        width: 77%;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    .esh{
+        margin-left: 160px;
+    }
+    .divchaa {
+        width: 80%;
+    }
+}
+@media (max-width: 580px) {
+    .listss{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .esh{
+        margin-left: 80px;
+    }
+    .b{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+   
+    .hammasi {
+        gap: 5px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+    .p, .kla {
+        font-size: 16px;
+    }
+    .w {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .bignumber {
+        font-size: 28px;
+    }
+    /* .listts-item {
+        width: 100%; 
+    } */
+}
